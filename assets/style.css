@@ -40,3 +40,15 @@ li, a {
     padding-top: 70px;
 }
 
+
+footer {
+    position: relative;
+    width: 100%;
+}
+
+.footlinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
