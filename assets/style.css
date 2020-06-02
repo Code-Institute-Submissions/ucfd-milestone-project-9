@@ -40,6 +40,24 @@ li, a {
     padding-top: 70px;
 }
 
+.image {
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+.welcome {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    padding-top: 10px;
+}
+
 
 footer {
     position: relative;
@@ -50,5 +68,5 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+    
 }
