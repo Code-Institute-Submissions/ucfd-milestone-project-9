@@ -44,7 +44,7 @@ li, a {
     letter-spacing: 0.5em;
     max-width: 100%;
     padding-top: 70px;
-    padding-bottom: 15px;
+    padding-bottom: 15px; 
 }
 
 .image {
@@ -81,7 +81,17 @@ footer {
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 576px) {
+.footlinks li {
+    list-style: none;
+    font-size: 30px;
+}
+
+.footlinks li:hover {
+    opacity: 0.5;
+}
+
+
+@media screen and (max-width: 992px) {
   .heading h1 {
     font-size: 20px;
   }
