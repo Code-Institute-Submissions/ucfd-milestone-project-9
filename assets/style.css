@@ -1,3 +1,5 @@
+/* ----------------------------------------Background */
+
 body {
     background-image: url("./images/background.jpg");
     background-position: center center;
@@ -6,6 +8,8 @@ body {
     background-size: cover;
     font-family: 'Nunito', sans-serif;
 }
+
+/* ----------------------------------------Header/Nav/Heading */
 
 nav {
     background-color: #cacfd2;
@@ -47,6 +51,8 @@ li, a {
     padding-bottom: 15px; 
 }
 
+/* ----------------------------------------Section */
+
 .image {
     text-align: center;
     width: 100%;
@@ -67,6 +73,8 @@ img {
     padding-top: 10px;
     font-size: 20px;
 }
+
+/* ----------------------------------------Footer */
 
 footer {
     position: relative;
@@ -89,6 +97,8 @@ footer {
 .footlinks li:hover {
     opacity: 0.5;
 }
+
+/* ----------------------------------------Media Queries */
 
 @media screen and (max-width: 992px) {
   .heading h1 {
